@@ -47,8 +47,8 @@ const DropdownLinks = [
 const Navbar = () => {
     return (
         <div>
-            <div className='py-4'>
-                <div className='container flex items-center justify-between'>
+            <div className='py-4 '>
+                <div className='container flex items-center justify-between border  dark:border-white '>
                     {/** LOGO AND LINKS */}
                     <div className='flex items-center gap-4'>
                         <a href="#" className='text-primary font-semibold tracking-widest test-2xl uppercase sm:text-3xl'>
@@ -101,7 +101,7 @@ const Navbar = () => {
                     {/**Right side navbar */}
                     <div className='flex justify-between items-center gap-4 '>
                         {/**Search bar */}
-                        <div className='flex items-center relative group sm:block '>
+                        <div className='flex items-center relative group bg-transparent  '>
                             <input type='text' placeholder='Search'
                                 className='search-bar'
                             />

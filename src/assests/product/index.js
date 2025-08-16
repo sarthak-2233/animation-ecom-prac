@@ -1,0 +1,8 @@
+export {default as Img1} from './p-1.jpg'
+export {default as Img2} from './p-2.jpg'
+export {default as Img3} from './p-3.jpg'
+export {default as Img4} from './p-4.jpg'
+export {default as Img5} from './p-5.jpg'
+export {default as Img6} from './p-7.jpg'
+export {default as Img7} from './p-9.jpg'
+export {default as Img8} from './p-1.jpg'

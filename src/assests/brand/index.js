@@ -1,0 +1,5 @@
+export {default as I1} from '../brand/br-1.png'
+export {default as I2} from '../brand/br-2.png'
+export {default as I3} from '../brand/br-3.png'
+export {default as I4} from '../brand/br-4.png'
+export {default as I5} from '../brand/br-5.png'

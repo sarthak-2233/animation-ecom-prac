@@ -3,6 +3,7 @@ import Slider from 'react-slick'
 import Image1 from '../../assests/hero/headphone.png'
 import Image2 from '../../assests/category/vr.png'
 import Image3 from '../../assests/category/macbook.png'
+import Button from '../Shared/Button'
 
 // Slider Data
 const HeroData = [
@@ -64,9 +65,12 @@ const Hero = () => {
                 <h2 className='text-3xl sm:text-5xl font-bold'>{item.title}</h2>
                 <h2 className='text-3xl sm:text-5xl font-bold'>{item.title2}</h2>
                 <p className='text-gray-500'>{item.description}</p>
-                <button className='mt-4 px-6 py-2 bg-black text-white rounded hover:bg-gray-800 transition-all'>
-                  Shop Now
-                </button>
+
+                <Button 
+                text='Shop Now'
+                bgColor='bg-primary'
+                textColor='text-white'
+                />
               </div>
 
               {/* IMAGE */}

@@ -17,7 +17,7 @@ const Category = () => {
                         <div className='mb-4'>
                         <p className='mb-[2px] text-gray-400 '>Enjoy</p>
                         <p className='text-2xl font-semibold mb-[2px]'>With</p>
-                        <p className='text-4xl xl:text-5xl font-bold opacity-20 mb-[2]'>Earphone</p>
+                        <p className='text-3xl xl:text-5xl  font-bold opacity-20 mb-[2]'>Earphone</p>
  
                         </div>
                     </div>
@@ -33,7 +33,7 @@ const Category = () => {
  
                         </div>
                     </div>
-                    <img src={Image2}  className='w-[320px] absolute -right-4 lg:top-[40px]'></img>
+                    <img src={Image2}  className='w-[320px] absolute -right-4 top-20 md:top-[40px]  lg:top-[40px]'></img>
                 </div>
 
                 {/**Third column */}
@@ -60,7 +60,7 @@ const Category = () => {
  
                         </div>
                     </div>
-                    <img src={Image4}  className='w-[320px] absolute -right-1 lg:top-[20px]'></img>
+                    <img src={Image4}  className='w-[200px] lg:w-[300px] top-10  absolute -right-0 lg:top-[20px]'></img>
                 </div>
                 {/**Col2 2 */}
                 <div className='py-10 pl-5  bg-gradient-to-br from-brandGreen to-brandGreen/90 text-white rounded-3xl relative h-[320px] flex '>
@@ -68,11 +68,11 @@ const Category = () => {
                         <div className='mb-4'>
                         <p className='mb-[2px] text-white '>Enjoy</p>
                         <p className='text-2xl text-white font-bold mb-[2px]'>With</p>
-                        <p className='text-4xl xl:text-5xl font-bold opacity-20 mb-[2]'>Reality</p>
+                        <p className='text-4xl xl:text-5xl font-bold opacity-20 mb-[2]'>Virtual Reality</p>
  
                         </div>
                     </div>
-                    <img src={Image5}  className='w-[320px] absolute bottom-0'></img>
+                    <img src={Image5}  className='w-[150px] lg:w-[220px] absolute bottom-2 right-1'></img>
                 </div>
 
                 {/**Col2 3 */}
